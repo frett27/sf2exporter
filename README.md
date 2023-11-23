@@ -1,4 +1,17 @@
 
+# Command line to export a sf2 principal Bank to WAV files
+
+This command line export each notes of the sf2 soundfont into a specific sound file (either .pcm or WAV)
+
+Commandline description :
+
+
+
+
+
+
+
+## additional tools commands
 
 convert to wav :
 
