@@ -96,10 +96,11 @@ fn write_file(sound_font: &Arc<SoundFont>, note: i32, filename: &str, writer: Fi
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
 struct Args {
-    /// Name of the person to greet
+    /// sf2 filepath
     #[arg(short, long, required = true)]
     sf2: String,
 
+    /// output format (wav or pcm)
     #[arg(short, long, required = true)]
     output: String,
 

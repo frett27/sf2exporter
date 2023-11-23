@@ -6,8 +6,19 @@ This command line export each notes of the sf2 soundfont into a specific sound f
 Commandline description :
 
 
+```
+Parameters definition for rendering
+
+Usage: sf2exporter --sf2 <SF2> --output <OUTPUT>
+
+Options:
+  -s, --sf2 <SF2>        sf2 filepath
+  -o, --output <OUTPUT>  output format (wav or pcm)
+  -h, --help             Print help
+  -V, --version          Print version
 
 
+```
 
 
 
